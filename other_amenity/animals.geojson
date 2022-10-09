@@ -1,0 +1,32 @@
+{
+"type": "FeatureCollection",
+"name": "animals",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32637" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 456, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": "Cтанция по борьбе с болезнями животных" }, "geometry": { "type": "Point", "coordinates": [ 414343.984205606859177, 6186727.750175710767508 ] } },
+{ "type": "Feature", "properties": { "fid": 1237, "addr:housenumber": "7", "addr:street": "Зубарев переулок", "amenity": "veterinary", "name": "Vet.city" }, "geometry": { "type": "Point", "coordinates": [ 414819.6483497589943, 6185953.440943532623351 ] } },
+{ "type": "Feature", "properties": { "fid": 595, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": null }, "geometry": { "type": "Point", "coordinates": [ 414485.515777986322064, 6185591.210953116416931 ] } },
+{ "type": "Feature", "properties": { "fid": 656, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": "Сопико" }, "geometry": { "type": "Point", "coordinates": [ 412767.14594199944986, 6182808.502441514283419 ] } },
+{ "type": "Feature", "properties": { "fid": 1349, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": "Кибела" }, "geometry": { "type": "Point", "coordinates": [ 415502.470473757421132, 6187883.121916185133159 ] } },
+{ "type": "Feature", "properties": { "fid": 1503, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": "Созвездие" }, "geometry": { "type": "Point", "coordinates": [ 415393.398193977889605, 6187167.335165000520647 ] } },
+{ "type": "Feature", "properties": { "fid": 1526, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": "Ветзвероцентр" }, "geometry": { "type": "Point", "coordinates": [ 416077.192766242485959, 6182813.792718033306301 ] } },
+{ "type": "Feature", "properties": { "fid": 1661, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": "Ветеринарный центр" }, "geometry": { "type": "Point", "coordinates": [ 412986.202069822349586, 6183173.879041694104671 ] } },
+{ "type": "Feature", "properties": { "fid": 1662, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": "Слон и Моська" }, "geometry": { "type": "Point", "coordinates": [ 412914.65104891336523, 6183341.21106490213424 ] } },
+{ "type": "Feature", "properties": { "fid": 2628, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": "Спутник" }, "geometry": { "type": "Point", "coordinates": [ 413326.138694345660042, 6185476.162996532395482 ] } },
+{ "type": "Feature", "properties": { "fid": 3236, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": "Ветлек" }, "geometry": { "type": "Point", "coordinates": [ 417383.977432685554959, 6183807.105788563378155 ] } },
+{ "type": "Feature", "properties": { "fid": 3313, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": "Северное сияние" }, "geometry": { "type": "Point", "coordinates": [ 417788.528126114455517, 6184164.445135301910341 ] } },
+{ "type": "Feature", "properties": { "fid": 3487, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": "Ветеринарная клиника Авет" }, "geometry": { "type": "Point", "coordinates": [ 416029.166975745465606, 6187351.091791417449713 ] } },
+{ "type": "Feature", "properties": { "fid": 3681, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": "Клевер" }, "geometry": { "type": "Point", "coordinates": [ 418245.203871188568883, 6186133.336057072505355 ] } },
+{ "type": "Feature", "properties": { "fid": 3945, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": "Зеленый попугай" }, "geometry": { "type": "Point", "coordinates": [ 414266.836368556425441, 6186066.476611332036555 ] } },
+{ "type": "Feature", "properties": { "fid": 4394, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": "Станция по борьбе с болезнями животных" }, "geometry": { "type": "Point", "coordinates": [ 416070.385844919364899, 6182817.019012253731489 ] } },
+{ "type": "Feature", "properties": { "fid": 4900, "addr:housenumber": null, "addr:street": null, "amenity": "veterinary", "name": null }, "geometry": { "type": "Point", "coordinates": [ 413586.736003341095056, 6184289.431744154542685 ] } },
+{ "type": "Feature", "properties": { "fid": 443, "addr:housenumber": null, "addr:street": null, "amenity": "animal_breeding", "name": "Центр кинологической службы" }, "geometry": { "type": "Point", "coordinates": [ 412974.152912242105231, 6186330.103523357771337 ] } },
+{ "type": "Feature", "properties": { "fid": 444, "addr:housenumber": null, "addr:street": null, "amenity": "animal_breeding", "name": "Центр кинологической службы" }, "geometry": { "type": "Point", "coordinates": [ 412940.374859428789932, 6186386.209441590122879 ] } },
+{ "type": "Feature", "properties": { "fid": 445, "addr:housenumber": null, "addr:street": null, "amenity": "animal_shelter", "name": "Приют \"Дубовая Роща\"" }, "geometry": { "type": "Point", "coordinates": [ 412636.086129422707018, 6186638.686073636636138 ] } },
+{ "type": "Feature", "properties": { "fid": 1308, "addr:housenumber": null, "addr:street": null, "amenity": "animal_shelter", "name": "Красная сосна" }, "geometry": { "type": "Point", "coordinates": [ 417276.348158231703565, 6189373.642626562155783 ] } },
+{ "type": "Feature", "properties": { "fid": 1677, "addr:housenumber": null, "addr:street": null, "amenity": "animal_training", "name": "Кинологический центр" }, "geometry": { "type": "Point", "coordinates": [ 415932.308825584477745, 6185554.353327387943864 ] } },
+{ "type": "Feature", "properties": { "fid": 2260, "addr:housenumber": null, "addr:street": null, "amenity": "animal_shelter", "name": null }, "geometry": { "type": "Point", "coordinates": [ 413812.296612812613603, 6189080.809689701534808 ] } },
+{ "type": "Feature", "properties": { "fid": 2261, "addr:housenumber": null, "addr:street": null, "amenity": "animal_shelter", "name": null }, "geometry": { "type": "Point", "coordinates": [ 413611.608056021272205, 6189012.942517776042223 ] } },
+{ "type": "Feature", "properties": { "fid": 3181, "addr:housenumber": null, "addr:street": null, "amenity": "animal_shelter", "name": "Мурчашка" }, "geometry": { "type": "Point", "coordinates": [ 417302.688679246057291, 6183711.234085813164711 ] } }
+]
+}

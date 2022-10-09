@@ -248,6 +248,9 @@
 { "type": "Feature", "properties": { "fid": 4884, "addr:housenumber": null, "addr:street": null, "amenity": "payment_terminal", "name": null }, "geometry": { "type": "Point", "coordinates": [ 417637.945311105519067, 6190041.967060306109488 ] } },
 { "type": "Feature", "properties": { "fid": 4885, "addr:housenumber": null, "addr:street": null, "amenity": "payment_terminal", "name": null }, "geometry": { "type": "Point", "coordinates": [ 412837.269723754317965, 6184293.422909465618432 ] } },
 { "type": "Feature", "properties": { "fid": 4886, "addr:housenumber": null, "addr:street": null, "amenity": "payment_terminal", "name": null }, "geometry": { "type": "Point", "coordinates": [ 414449.730111813405529, 6187338.848163889721036 ] } },
-{ "type": "Feature", "properties": { "fid": 5124, "addr:housenumber": null, "addr:street": null, "amenity": "payment_terminal", "name": null }, "geometry": { "type": "Point", "coordinates": [ 416537.777995638549328, 6189660.330734091810882 ] } }
+{ "type": "Feature", "properties": { "fid": 5124, "addr:housenumber": null, "addr:street": null, "amenity": "payment_terminal", "name": null }, "geometry": { "type": "Point", "coordinates": [ 416537.777995638549328, 6189660.330734091810882 ] } },
+{ "type": "Feature", "properties": { "fid": 1493, "addr:housenumber": null, "addr:street": null, "amenity": "money_transfer", "name": "Contact" }, "geometry": { "type": "Point", "coordinates": [ 414546.71801339276135, 6184890.838287851773202 ] } },
+{ "type": "Feature", "properties": { "fid": 1494, "addr:housenumber": null, "addr:street": null, "amenity": "money_transfer", "name": "Contact" }, "geometry": { "type": "Point", "coordinates": [ 415207.630623668548651, 6186973.048340034671128 ] } },
+{ "type": "Feature", "properties": { "fid": 1495, "addr:housenumber": null, "addr:street": null, "amenity": "money_transfer", "name": "Contact" }, "geometry": { "type": "Point", "coordinates": [ 415402.930366072338074, 6186961.320511491037905 ] } }
 ]
 }
