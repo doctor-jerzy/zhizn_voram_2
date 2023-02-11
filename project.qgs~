@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="Георгий Поляков" version="3.22.8-Białowieża" saveUser="Георгий" projectname="" saveDateTime="2023-02-09T13:37:36">
+<qgis saveUserFull="Георгий Поляков" version="3.22.8-Białowieża" saveUser="Георгий" projectname="" saveDateTime="2023-02-11T14:55:26">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -338,7 +338,7 @@
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer source="./дома_район.geojson|geometrytype=Polygon" id="___________5fc2a458_22d7_4569_ae2f_3cc349c6a342" expanded="1" legend_split_behavior="0" name="дома_район" providerKey="ogr" patch_size="-1,-1" checked="Qt::Checked" legend_exp="">
+      <layer-tree-layer source="./дома_район.geojson|geometrytype=Polygon" id="___________5fc2a458_22d7_4569_ae2f_3cc349c6a342" expanded="1" legend_split_behavior="0" name="дома_район" providerKey="ogr" patch_size="-1,-1" checked="Qt::Unchecked" legend_exp="">
         <customproperties>
           <Option/>
         </customproperties>
@@ -398,14 +398,19 @@
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" id="OSM_Standard_15ba26b3_8128_4449_9c54_ea8949685952" expanded="1" legend_split_behavior="0" name="Карта OSM" providerKey="wms" patch_size="-1,-1" checked="Qt::Checked" legend_exp="">
+    <layer-tree-layer source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" id="OSM_Standard_15ba26b3_8128_4449_9c54_ea8949685952" expanded="1" legend_split_behavior="0" name="Карта OSM" providerKey="wms" patch_size="-1,-1" checked="Qt::Unchecked" legend_exp="">
       <customproperties>
         <Option type="Map">
           <Option value="OSM Standard" type="QString" name="cached_name"/>
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer source="crs=EPSG:3395&amp;format&amp;type=xyz&amp;url=https://core-sat.maps.yandex.net/tiles?l%3Dsat%26v%3D3.1025.0%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D%26scale%3D1%26lang%3Dru_RU&amp;zmax=19&amp;zmin=0" id="Yandex_Satellite_91cb8f73_114a_45d4_af31_e9b2f2086a17" expanded="1" legend_split_behavior="0" name="Yandex Satellite" providerKey="wms" patch_size="-1,-1" checked="Qt::Checked" legend_exp="">
+    <layer-tree-layer source="crs=EPSG:3395&amp;format&amp;type=xyz&amp;url=https://core-sat.maps.yandex.net/tiles?l%3Dsat%26v%3D3.1025.0%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D%26scale%3D1%26lang%3Dru_RU&amp;zmax=19&amp;zmin=0" id="Yandex_Satellite_91cb8f73_114a_45d4_af31_e9b2f2086a17" expanded="1" legend_split_behavior="0" name="Yandex Satellite" providerKey="wms" patch_size="-1,-1" checked="Qt::Unchecked" legend_exp="">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer source="type=xyz&amp;zmin=0&amp;zmax=21&amp;url=https://core-renderer-tiles.maps.yandex.net/tiles?l%3Dmap%26x%3D{x}%26y%3D{y}%26z%3D{z}%26scale%3D1%26lang%3Dru_RU" id="Yandex_Maps_22_8fd871ed_966c_48cd_bd2a_99c786ba58af" expanded="1" legend_split_behavior="0" name="Yandex Maps 22" providerKey="wms" patch_size="-1,-1" checked="Qt::Checked" legend_exp="">
       <customproperties>
         <Option/>
       </customproperties>
@@ -463,6 +468,7 @@
       <item>yandex_map_4138e373_33b0_40ac_93fb_344be7ee5166</item>
       <item>v_qy_cnhbnc_6bf0489c_49a0_468c_b547_fd05730674f5</item>
       <item>________________f944fd7d_9cf1_4fa2_a2d6_1193df251ad9</item>
+      <item>Yandex_Maps_22_8fd871ed_966c_48cd_bd2a_99c786ba58af</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings unit="1" type="1" minScale="0" maxScale="0" mode="2" enabled="1" tolerance="12" intersection-snapping="0" self-snapping="0" scaleDependencyMode="0">
@@ -522,10 +528,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>414827.84051360771991313</xmin>
-      <ymin>6185761.62040539365261793</ymin>
-      <xmax>414921.22110109613277018</xmax>
-      <ymax>6185886.5314261494204402</ymax>
+      <xmin>414572.0503761162981391</xmin>
+      <ymin>6184377.38639591448009014</ymin>
+      <xmax>414598.31366633903235197</xmax>
+      <ymax>6184412.51762054674327374</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -770,9 +776,9 @@
           <legendlayerfile isInOverview="0" layerid="_________efbf2432_c202_45ac_bc4b_7d9313972e62" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer showFeatureCount="0" drawingOrder="-1" name="дома_район" checked="Qt::Checked" open="true">
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="дома_район" checked="Qt::Unchecked" open="true">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="___________5fc2a458_22d7_4569_ae2f_3cc349c6a342" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="___________5fc2a458_22d7_4569_ae2f_3cc349c6a342" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -820,14 +826,19 @@
         <legendlayerfile isInOverview="0" layerid="___________________10000__1_modified_a0b5ecd1_502a_4cb8_bbdb_dd7a7c25b31f" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer showFeatureCount="0" drawingOrder="-1" name="Карта OSM" checked="Qt::Checked" open="true">
+    <legendlayer showFeatureCount="0" drawingOrder="-1" name="Карта OSM" checked="Qt::Unchecked" open="true">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="OSM_Standard_15ba26b3_8128_4449_9c54_ea8949685952" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="OSM_Standard_15ba26b3_8128_4449_9c54_ea8949685952" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer showFeatureCount="0" drawingOrder="-1" name="Yandex Satellite" checked="Qt::Checked" open="true">
+    <legendlayer showFeatureCount="0" drawingOrder="-1" name="Yandex Satellite" checked="Qt::Unchecked" open="true">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="Yandex_Satellite_91cb8f73_114a_45d4_af31_e9b2f2086a17" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Yandex_Satellite_91cb8f73_114a_45d4_af31_e9b2f2086a17" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" drawingOrder="-1" name="Yandex Maps 22" checked="Qt::Checked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="Yandex_Maps_22_8fd871ed_966c_48cd_bd2a_99c786ba58af" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -2470,6 +2481,118 @@ def my_form_open(dialog, layer, feature):
         <xmax>179.99999999999997158</xmax>
         <ymax>85.08405905011042591</ymax>
       </wgs84extent>
+      <id>Yandex_Maps_22_8fd871ed_966c_48cd_bd2a_99c786ba58af</id>
+      <datasource>type=xyz&amp;zmin=0&amp;zmax=21&amp;url=https://core-renderer-tiles.maps.yandex.net/tiles?l%3Dmap%26x%3D{x}%26y%3D{y}%26z%3D{z}%26scale%3D1%26lang%3Dru_RU</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <attribution href="">Yandex Maps</attribution>
+      <layername>Yandex Maps 22</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["WGS 84 / World Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["World Mercator",METHOD["Mercator (variant A)",ID["EPSG",9804]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",1,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Very small scale conformal mapping."],AREA["World between 80°S and 84°N."],BBOX[-80,-180,84,180]],ID["EPSG",3395]]</wkt>
+          <proj4>+proj=merc +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>1353</srsid>
+          <srid>3395</srid>
+          <authid>EPSG:3395</authid>
+          <description>WGS 84 / World Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal mode="0" enabled="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option value="Value" type="QString" name="identify/format"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option value="" type="QString" name="name"/>
+          <Option name="properties"/>
+          <Option value="collection" type="QString" name="type"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false" maxOversampling="2"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" band="1" nodataColor="" opacity="1" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" gamma="1" brightness="0"/>
+        <huesaturation grayscaleMode="0" colorizeGreen="128" colorizeStrength="100" invertColors="0" colorizeOn="0" colorizeRed="255" saturation="0" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshTime="0" refreshOnNotifyMessage="" type="raster" minScale="1e+08" maxScale="0" autoRefreshEnabled="0" legendPlaceholderImage="" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278924763202667</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924763202667</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-180</xmin>
+        <ymin>-85.08405905011042591</ymin>
+        <xmax>179.99999999999997158</xmax>
+        <ymax>85.08405905011042591</ymax>
+      </wgs84extent>
       <id>Yandex_Satellite_91cb8f73_114a_45d4_af31_e9b2f2086a17</id>
       <datasource>crs=EPSG:3395&amp;format&amp;type=xyz&amp;url=https://core-sat.maps.yandex.net/tiles?l%3Dsat%26v%3D3.1025.0%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D%26scale%3D1%26lang%3Dru_RU&amp;zmax=19&amp;zmin=0</datasource>
       <keywordList>
@@ -3842,7 +3965,7 @@ def my_form_open(dialog, layer, feature):
       </temporal>
       <renderer-v2 type="singleSymbol" referencescale="-1" symbollevels="0" enableorderby="0" forceraster="0">
         <symbols>
-          <symbol type="fill" name="0" clip_to_extent="1" force_rhr="0" alpha="1">
+          <symbol type="fill" name="0" clip_to_extent="1" force_rhr="0" alpha="0.493">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -3853,26 +3976,26 @@ def my_form_open(dialog, layer, feature):
             <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
-                <Option value="208,208,208,255" type="QString" name="color"/>
+                <Option value="208,208,208,0" type="QString" name="color"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
                 <Option value="0,0" type="QString" name="offset"/>
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
                 <Option value="MM" type="QString" name="offset_unit"/>
-                <Option value="0,0,0,0" type="QString" name="outline_color"/>
+                <Option value="0,0,0,255" type="QString" name="outline_color"/>
                 <Option value="solid" type="QString" name="outline_style"/>
-                <Option value="0.26" type="QString" name="outline_width"/>
+                <Option value="1" type="QString" name="outline_width"/>
                 <Option value="MM" type="QString" name="outline_width_unit"/>
                 <Option value="solid" type="QString" name="style"/>
               </Option>
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="208,208,208,255" k="color"/>
+              <prop v="208,208,208,0" k="color"/>
               <prop v="bevel" k="joinstyle"/>
               <prop v="0,0" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
-              <prop v="0,0,0,0" k="outline_color"/>
+              <prop v="0,0,0,255" k="outline_color"/>
               <prop v="solid" k="outline_style"/>
-              <prop v="0.26" k="outline_width"/>
+              <prop v="1" k="outline_width"/>
               <prop v="MM" k="outline_width_unit"/>
               <prop v="solid" k="style"/>
               <data_defined_properties>
@@ -3894,8 +4017,8 @@ def my_form_open(dialog, layer, feature):
             <Option value="&quot;addr:street&quot;" type="QString"/>
           </Option>
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -4179,7 +4302,7 @@ def my_form_open(dialog, layer, feature):
       <attributeactions>
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;fid&quot;" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;common_area&quot;" sortOrder="0">
         <columns>
           <column type="field" name="fid" hidden="0" width="36"/>
           <column type="field" name="address" hidden="0" width="202"/>
@@ -10500,15 +10623,15 @@ def my_form_open(dialog, layer, feature):
     <maplayer simplifyDrawingHints="1" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" type="vector" simplifyMaxScale="1" minScale="100000000" readOnly="0" wkbType="MultiLineString" geometry="Line" refreshOnNotifyEnabled="0" maxScale="0" legendPlaceholderImage="" autoRefreshTime="0" simplifyLocal="1" simplifyDrawingTol="1" symbologyReferenceScale="-1" simplifyAlgorithm="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" labelsEnabled="0">
       <extent>
         <xmin>414424.82381877972511575</xmin>
-        <ymin>6183465.92259698081761599</ymin>
+        <ymin>6183443.75658575817942619</ymin>
         <xmax>416650.30285758181707934</xmax>
         <ymax>6188334.44123740494251251</ymax>
       </extent>
       <wgs84extent>
         <xmin>37.63373388428573918</xmin>
-        <ymin>55.78924055220015532</ymin>
-        <xmax>37.67074577922976175</xmax>
-        <ymax>55.83336220954340945</ymax>
+        <ymin>55.78904144148553002</ymin>
+        <xmax>37.67075256056882893</xmax>
+        <ymax>55.83336220954346629</ymax>
       </wgs84extent>
       <id>________________f944fd7d_9cf1_4fa2_a2d6_1193df251ad9</id>
       <datasource>./проезды_проходы.geojson</datasource>
@@ -10698,7 +10821,7 @@ def my_form_open(dialog, layer, feature):
                 <Option value="129,129,129,255" type="QString" name="line_color"/>
                 <Option value="solid" type="QString" name="line_style"/>
                 <Option value="3" type="QString" name="line_width"/>
-                <Option value="RenderMetersInMapUnits" type="QString" name="line_width_unit"/>
+                <Option value="MM" type="QString" name="line_width_unit"/>
                 <Option value="0" type="QString" name="offset"/>
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
                 <Option value="MM" type="QString" name="offset_unit"/>
@@ -10726,7 +10849,7 @@ def my_form_open(dialog, layer, feature):
               <prop v="129,129,129,255" k="line_color"/>
               <prop v="solid" k="line_style"/>
               <prop v="3" k="line_width"/>
-              <prop v="RenderMetersInMapUnits" k="line_width_unit"/>
+              <prop v="MM" k="line_width_unit"/>
               <prop v="0" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
@@ -25341,7 +25464,7 @@ def my_form_open(dialog, layer, feature):
                 <Option value="0,122,170,255" type="QString" name="line_color"/>
                 <Option value="solid" type="QString" name="line_style"/>
                 <Option value="5" type="QString" name="line_width"/>
-                <Option value="RenderMetersInMapUnits" type="QString" name="line_width_unit"/>
+                <Option value="MM" type="QString" name="line_width_unit"/>
                 <Option value="0" type="QString" name="offset"/>
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
                 <Option value="MM" type="QString" name="offset_unit"/>
@@ -25369,7 +25492,7 @@ def my_form_open(dialog, layer, feature):
               <prop v="0,122,170,255" k="line_color"/>
               <prop v="solid" k="line_style"/>
               <prop v="5" k="line_width"/>
-              <prop v="RenderMetersInMapUnits" k="line_width_unit"/>
+              <prop v="MM" k="line_width_unit"/>
               <prop v="0" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
@@ -27159,6 +27282,7 @@ def my_form_open(dialog, layer, feature):
     <layer id="yandex_map_4138e373_33b0_40ac_93fb_344be7ee5166"/>
     <layer id="v_qy_cnhbnc_6bf0489c_49a0_468c_b547_fd05730674f5"/>
     <layer id="________________f944fd7d_9cf1_4fa2_a2d6_1193df251ad9"/>
+    <layer id="Yandex_Maps_22_8fd871ed_966c_48cd_bd2a_99c786ba58af"/>
   </layerorder>
   <properties>
     <DefaultStyles>
@@ -33599,7 +33723,7 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmin="414816.57962334144394845" xmax="414932.48199136240873486" ymax="6185886.5314261494204402" ymin="6185761.62040539365261793">
+    <DefaultViewExtent xmin="414536.48874264193000272" xmax="414633.87529981340048835" ymax="6184412.51762054674327374" ymin="6184377.38639591448009014">
       <spatialrefsys>
         <wkt>PROJCRS["WGS 84 / UTM zone 37N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 37N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",39,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Between 36°E and 42°E, northern hemisphere between equator and 84°N, onshore and offshore. Djibouti. Egypt. Eritrea. Ethiopia. Georgia. Iraq. Jordan. Kenya. Lebanon. Russian Federation. Saudi Arabia. Somalia. Sudan. Syria. Turkey. Ukraine."],BBOX[0,36,84,42]],ID["EPSG",32637]]</wkt>
         <proj4>+proj=utm +zone=37 +datum=WGS84 +units=m +no_defs</proj4>
