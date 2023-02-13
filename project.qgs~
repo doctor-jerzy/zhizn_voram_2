@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="Георгий" version="3.22.8-Białowieża" projectname="" saveDateTime="2023-02-12T15:55:38" saveUserFull="Георгий Поляков">
+<qgis saveUser="Георгий" version="3.22.8-Białowieża" projectname="" saveDateTime="2023-02-13T02:11:32" saveUserFull="Георгий Поляков">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -339,7 +339,7 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer providerKey="ogr" checked="Qt::Checked" patch_size="-1,-1" source="./все_маршруты.geojson" expanded="1" legend_split_behavior="0" legend_exp="" id="_____________22a32723_780c_4bc8_9860_3cffe756707f" name="все_маршруты">
+    <layer-tree-layer providerKey="ogr" checked="Qt::Unchecked" patch_size="-1,-1" source="./все_маршруты.geojson" expanded="1" legend_split_behavior="0" legend_exp="" id="_____________22a32723_780c_4bc8_9860_3cffe756707f" name="все_маршруты">
       <customproperties>
         <Option/>
       </customproperties>
@@ -363,7 +363,7 @@
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="ogr" checked="Qt::Unchecked" patch_size="-1,-1" source="./проезды_проходы.geojson" expanded="1" legend_split_behavior="0" legend_exp="" id="________________f944fd7d_9cf1_4fa2_a2d6_1193df251ad9" name="проезды_проходы">
+      <layer-tree-layer providerKey="ogr" checked="Qt::Checked" patch_size="-1,-1" source="./проезды_проходы.geojson" expanded="1" legend_split_behavior="0" legend_exp="" id="________________f944fd7d_9cf1_4fa2_a2d6_1193df251ad9" name="проезды_проходы">
         <customproperties>
           <Option/>
         </customproperties>
@@ -396,7 +396,7 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer providerKey="ogr" checked="Qt::Unchecked" patch_size="-1,-1" source="./зелёный_каркас.geojson|layername=зелёный_каркас" expanded="0" legend_split_behavior="0" legend_exp="" id="Fixed_geometries_468386d0_8fe7_4802_8ce8_335e714559eb" name="зелёный каркас">
+    <layer-tree-layer providerKey="ogr" checked="Qt::Checked" patch_size="-1,-1" source="./зелёный_каркас.geojson|layername=зелёный_каркас" expanded="0" legend_split_behavior="0" legend_exp="" id="Fixed_geometries_468386d0_8fe7_4802_8ce8_335e714559eb" name="зелёный каркас">
       <customproperties>
         <Option/>
       </customproperties>
@@ -542,10 +542,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>414108.77114607475232333</xmin>
-      <ymin>6185765.41445274371653795</ymin>
-      <xmax>415855.3992998757166788</xmax>
-      <ymax>6188101.80056114215403795</ymax>
+      <xmin>413550.81494121422292665</xmin>
+      <ymin>6186163.78918855916708708</ymin>
+      <xmax>415415.98865871300222352</xmax>
+      <ymax>6188658.74838655721396208</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -791,9 +791,9 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="true" name="все_маршруты">
+    <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true" name="все_маршруты">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="1" layerid="_____________22a32723_780c_4bc8_9860_3cffe756707f"/>
+        <legendlayerfile isInOverview="0" visible="0" layerid="_____________22a32723_780c_4bc8_9860_3cffe756707f"/>
       </filegroup>
     </legendlayer>
     <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="true" name="yandex_map">
@@ -812,9 +812,9 @@
           <legendlayerfile isInOverview="0" visible="0" layerid="pedestrian_availability_ranking_37N_d975f732_b273_4549_8df0_6bbcbda54f45"/>
         </filegroup>
       </legendlayer>
-      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true" name="проезды_проходы">
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="true" name="проезды_проходы">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" visible="0" layerid="________________f944fd7d_9cf1_4fa2_a2d6_1193df251ad9"/>
+          <legendlayerfile isInOverview="0" visible="1" layerid="________________f944fd7d_9cf1_4fa2_a2d6_1193df251ad9"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="true" name="v'qy_cnhbnc">
@@ -840,9 +840,9 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="false" name="зелёный каркас">
+    <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="false" name="зелёный каркас">
       <filegroup hidden="false" open="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="Fixed_geometries_468386d0_8fe7_4802_8ce8_335e714559eb"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="Fixed_geometries_468386d0_8fe7_4802_8ce8_335e714559eb"/>
       </filegroup>
     </legendlayer>
     <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="false" name="подоснова">
@@ -6163,14 +6163,14 @@ def my_form_open(dialog, layer, feature):
       <extent>
         <xmin>406423.48932125128339976</xmin>
         <ymin>6177609.63084184098988771</ymin>
-        <xmax>420032.65857640246395022</xmax>
-        <ymax>6194416.95191656239330769</ymax>
+        <xmax>446599.80512932187411934</xmax>
+        <ymax>6240255.24578670505434275</ymax>
       </extent>
       <wgs84extent>
-        <xmin>37.50393551877838405</xmin>
+        <xmin>37.4878865257382472</xmin>
         <ymin>55.73515570637763972</ymin>
-        <xmax>37.72638815666557122</xmax>
-        <ymax>55.88857301386682508</ymax>
+        <xmax>38.14944844860112738</xmax>
+        <ymax>56.30405239429720865</ymax>
       </wgs84extent>
       <id>_____________22a32723_780c_4bc8_9860_3cffe756707f</id>
       <datasource>./все_маршруты.geojson</datasource>
@@ -6255,7 +6255,7 @@ def my_form_open(dialog, layer, feature):
           <end></end>
         </fixedRange>
       </temporal>
-      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" attr="checked" type="categorizedSymbol" referencescale="-1">
+      <renderer-v2 symbollevels="1" forceraster="0" enableorderby="0" attr="checked" type="categorizedSymbol" referencescale="-1">
         <categories>
           <category symbol="0" render="true" value="true" label="true"/>
           <category symbol="1" render="true" value="" label=""/>
@@ -6269,63 +6269,49 @@ def my_form_open(dialog, layer, feature):
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer pass="0" enabled="1" locked="0" class="SimpleLine">
+            <layer pass="0" enabled="1" locked="0" class="ArrowLine">
               <Option type="Map">
-                <Option value="0" type="QString" name="align_dash_pattern"/>
-                <Option value="square" type="QString" name="capstyle"/>
-                <Option value="5;2" type="QString" name="customdash"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="customdash_map_unit_scale"/>
-                <Option value="MM" type="QString" name="customdash_unit"/>
-                <Option value="0" type="QString" name="dash_pattern_offset"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="dash_pattern_offset_map_unit_scale"/>
-                <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
-                <Option value="0" type="QString" name="draw_inside_polygon"/>
-                <Option value="bevel" type="QString" name="joinstyle"/>
-                <Option value="255,43,1,255" type="QString" name="line_color"/>
-                <Option value="solid" type="QString" name="line_style"/>
-                <Option value="0.26" type="QString" name="line_width"/>
-                <Option value="MM" type="QString" name="line_width_unit"/>
+                <Option value="0.26" type="QString" name="arrow_start_width"/>
+                <Option value="MM" type="QString" name="arrow_start_width_unit"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="arrow_start_width_unit_scale"/>
+                <Option value="0" type="QString" name="arrow_type"/>
+                <Option value="0.26" type="QString" name="arrow_width"/>
+                <Option value="MM" type="QString" name="arrow_width_unit"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="arrow_width_unit_scale"/>
+                <Option value="1" type="QString" name="head_length"/>
+                <Option value="MM" type="QString" name="head_length_unit"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="head_length_unit_scale"/>
+                <Option value="1" type="QString" name="head_thickness"/>
+                <Option value="MM" type="QString" name="head_thickness_unit"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="head_thickness_unit_scale"/>
+                <Option value="0" type="QString" name="head_type"/>
+                <Option value="0" type="QString" name="is_curved"/>
+                <Option value="1" type="QString" name="is_repeated"/>
                 <Option value="0" type="QString" name="offset"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
                 <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_unit_scale"/>
                 <Option value="0" type="QString" name="ring_filter"/>
-                <Option value="0" type="QString" name="trim_distance_end"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_end_map_unit_scale"/>
-                <Option value="MM" type="QString" name="trim_distance_end_unit"/>
-                <Option value="0" type="QString" name="trim_distance_start"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_start_map_unit_scale"/>
-                <Option value="MM" type="QString" name="trim_distance_start_unit"/>
-                <Option value="0" type="QString" name="tweak_dash_pattern_on_corners"/>
-                <Option value="0" type="QString" name="use_custom_dash"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="width_map_unit_scale"/>
               </Option>
-              <prop k="align_dash_pattern" v="0"/>
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="dash_pattern_offset" v="0"/>
-              <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="dash_pattern_offset_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="255,43,1,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
+              <prop k="arrow_start_width" v="0.26"/>
+              <prop k="arrow_start_width_unit" v="MM"/>
+              <prop k="arrow_start_width_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="arrow_type" v="0"/>
+              <prop k="arrow_width" v="0.26"/>
+              <prop k="arrow_width_unit" v="MM"/>
+              <prop k="arrow_width_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="head_length" v="1"/>
+              <prop k="head_length_unit" v="MM"/>
+              <prop k="head_length_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="head_thickness" v="1"/>
+              <prop k="head_thickness_unit" v="MM"/>
+              <prop k="head_thickness_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="head_type" v="0"/>
+              <prop k="is_curved" v="0"/>
+              <prop k="is_repeated" v="1"/>
               <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
+              <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="ring_filter" v="0"/>
-              <prop k="trim_distance_end" v="0"/>
-              <prop k="trim_distance_end_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="trim_distance_end_unit" v="MM"/>
-              <prop k="trim_distance_start" v="0"/>
-              <prop k="trim_distance_start_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="trim_distance_start_unit" v="MM"/>
-              <prop k="tweak_dash_pattern_on_corners" v="0"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option value="" type="QString" name="name"/>
@@ -6333,6 +6319,48 @@ def my_form_open(dialog, layer, feature):
                   <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
+              <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="@0@0">
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" type="QString" name="name"/>
+                    <Option name="properties"/>
+                    <Option value="collection" type="QString" name="type"/>
+                  </Option>
+                </data_defined_properties>
+                <layer pass="0" enabled="1" locked="0" class="SimpleFill">
+                  <Option type="Map">
+                    <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
+                    <Option value="255,43,1,255" type="QString" name="color"/>
+                    <Option value="bevel" type="QString" name="joinstyle"/>
+                    <Option value="0,0" type="QString" name="offset"/>
+                    <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                    <Option value="MM" type="QString" name="offset_unit"/>
+                    <Option value="255,43,1,255" type="QString" name="outline_color"/>
+                    <Option value="solid" type="QString" name="outline_style"/>
+                    <Option value="0.26" type="QString" name="outline_width"/>
+                    <Option value="MM" type="QString" name="outline_width_unit"/>
+                    <Option value="solid" type="QString" name="style"/>
+                  </Option>
+                  <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="color" v="255,43,1,255"/>
+                  <prop k="joinstyle" v="bevel"/>
+                  <prop k="offset" v="0,0"/>
+                  <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="outline_color" v="255,43,1,255"/>
+                  <prop k="outline_style" v="solid"/>
+                  <prop k="outline_width" v="0.26"/>
+                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="style" v="solid"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option value="" type="QString" name="name"/>
+                      <Option name="properties"/>
+                      <Option value="collection" type="QString" name="type"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
             </layer>
           </symbol>
           <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="line" name="1">
@@ -6343,63 +6371,49 @@ def my_form_open(dialog, layer, feature):
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer pass="0" enabled="1" locked="0" class="SimpleLine">
+            <layer pass="1" enabled="1" locked="0" class="ArrowLine">
               <Option type="Map">
-                <Option value="0" type="QString" name="align_dash_pattern"/>
-                <Option value="square" type="QString" name="capstyle"/>
-                <Option value="5;2" type="QString" name="customdash"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="customdash_map_unit_scale"/>
-                <Option value="MM" type="QString" name="customdash_unit"/>
-                <Option value="0" type="QString" name="dash_pattern_offset"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="dash_pattern_offset_map_unit_scale"/>
-                <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
-                <Option value="0" type="QString" name="draw_inside_polygon"/>
-                <Option value="bevel" type="QString" name="joinstyle"/>
-                <Option value="75,23,231,255" type="QString" name="line_color"/>
-                <Option value="solid" type="QString" name="line_style"/>
-                <Option value="0.26" type="QString" name="line_width"/>
-                <Option value="MM" type="QString" name="line_width_unit"/>
+                <Option value="0.26" type="QString" name="arrow_start_width"/>
+                <Option value="MM" type="QString" name="arrow_start_width_unit"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="arrow_start_width_unit_scale"/>
+                <Option value="0" type="QString" name="arrow_type"/>
+                <Option value="0.26" type="QString" name="arrow_width"/>
+                <Option value="MM" type="QString" name="arrow_width_unit"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="arrow_width_unit_scale"/>
+                <Option value="1" type="QString" name="head_length"/>
+                <Option value="MM" type="QString" name="head_length_unit"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="head_length_unit_scale"/>
+                <Option value="1" type="QString" name="head_thickness"/>
+                <Option value="MM" type="QString" name="head_thickness_unit"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="head_thickness_unit_scale"/>
+                <Option value="0" type="QString" name="head_type"/>
+                <Option value="0" type="QString" name="is_curved"/>
+                <Option value="1" type="QString" name="is_repeated"/>
                 <Option value="0" type="QString" name="offset"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
                 <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_unit_scale"/>
                 <Option value="0" type="QString" name="ring_filter"/>
-                <Option value="0" type="QString" name="trim_distance_end"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_end_map_unit_scale"/>
-                <Option value="MM" type="QString" name="trim_distance_end_unit"/>
-                <Option value="0" type="QString" name="trim_distance_start"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_start_map_unit_scale"/>
-                <Option value="MM" type="QString" name="trim_distance_start_unit"/>
-                <Option value="0" type="QString" name="tweak_dash_pattern_on_corners"/>
-                <Option value="0" type="QString" name="use_custom_dash"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="width_map_unit_scale"/>
               </Option>
-              <prop k="align_dash_pattern" v="0"/>
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="dash_pattern_offset" v="0"/>
-              <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="dash_pattern_offset_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="75,23,231,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
+              <prop k="arrow_start_width" v="0.26"/>
+              <prop k="arrow_start_width_unit" v="MM"/>
+              <prop k="arrow_start_width_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="arrow_type" v="0"/>
+              <prop k="arrow_width" v="0.26"/>
+              <prop k="arrow_width_unit" v="MM"/>
+              <prop k="arrow_width_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="head_length" v="1"/>
+              <prop k="head_length_unit" v="MM"/>
+              <prop k="head_length_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="head_thickness" v="1"/>
+              <prop k="head_thickness_unit" v="MM"/>
+              <prop k="head_thickness_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="head_type" v="0"/>
+              <prop k="is_curved" v="0"/>
+              <prop k="is_repeated" v="1"/>
               <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
+              <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="ring_filter" v="0"/>
-              <prop k="trim_distance_end" v="0"/>
-              <prop k="trim_distance_end_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="trim_distance_end_unit" v="MM"/>
-              <prop k="trim_distance_start" v="0"/>
-              <prop k="trim_distance_start_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="trim_distance_start_unit" v="MM"/>
-              <prop k="tweak_dash_pattern_on_corners" v="0"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option value="" type="QString" name="name"/>
@@ -6407,6 +6421,48 @@ def my_form_open(dialog, layer, feature):
                   <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
+              <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="@1@0">
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" type="QString" name="name"/>
+                    <Option name="properties"/>
+                    <Option value="collection" type="QString" name="type"/>
+                  </Option>
+                </data_defined_properties>
+                <layer pass="0" enabled="1" locked="0" class="SimpleFill">
+                  <Option type="Map">
+                    <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
+                    <Option value="0,0,255,255" type="QString" name="color"/>
+                    <Option value="bevel" type="QString" name="joinstyle"/>
+                    <Option value="0,0" type="QString" name="offset"/>
+                    <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                    <Option value="MM" type="QString" name="offset_unit"/>
+                    <Option value="75,23,231,255" type="QString" name="outline_color"/>
+                    <Option value="solid" type="QString" name="outline_style"/>
+                    <Option value="0.26" type="QString" name="outline_width"/>
+                    <Option value="MM" type="QString" name="outline_width_unit"/>
+                    <Option value="solid" type="QString" name="style"/>
+                  </Option>
+                  <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="color" v="0,0,255,255"/>
+                  <prop k="joinstyle" v="bevel"/>
+                  <prop k="offset" v="0,0"/>
+                  <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="outline_color" v="75,23,231,255"/>
+                  <prop k="outline_style" v="solid"/>
+                  <prop k="outline_width" v="0.26"/>
+                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="style" v="solid"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option value="" type="QString" name="name"/>
+                      <Option name="properties"/>
+                      <Option value="collection" type="QString" name="type"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
             </layer>
           </symbol>
         </symbols>
@@ -6829,20 +6885,20 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="0" type="field" name="checked"/>
           <column width="-1" hidden="0" type="field" name="by_night"/>
           <column width="-1" hidden="0" type="field" name="description"/>
-          <column width="100" hidden="0" type="field" name="from"/>
-          <column width="400" hidden="0" type="field" name="name"/>
+          <column width="209" hidden="0" type="field" name="from"/>
+          <column width="237" hidden="0" type="field" name="name"/>
+          <column width="63" hidden="0" type="field" name="ref"/>
           <column width="-1" hidden="0" type="field" name="network"/>
           <column width="-1" hidden="0" type="field" name="operator"/>
           <column width="-1" hidden="0" type="field" name="payment:cash"/>
           <column width="-1" hidden="0" type="field" name="payment:credit_cards"/>
           <column width="-1" hidden="0" type="field" name="payment:debit_cards"/>
           <column width="-1" hidden="0" type="field" name="payment:strelka"/>
-          <column width="-1" hidden="0" type="field" name="payment:troika"/>
-          <column width="-1" hidden="0" type="field" name="public_transport:version"/>
-          <column width="-1" hidden="0" type="field" name="ref"/>
+          <column width="100" hidden="0" type="field" name="payment:troika"/>
+          <column width="124" hidden="0" type="field" name="public_transport:version"/>
           <column width="-1" hidden="0" type="field" name="roundtrip"/>
           <column width="-1" hidden="0" type="field" name="route"/>
-          <column width="-1" hidden="0" type="field" name="to"/>
+          <column width="170" hidden="0" type="field" name="to"/>
           <column width="-1" hidden="0" type="field" name="type"/>
           <column width="-1" hidden="0" type="field" name="via"/>
           <column width="-1" hidden="1" type="actions"/>
@@ -11527,10 +11583,10 @@ def my_form_open(dialog, layer, feature):
       </temporal>
       <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" attr="highway" type="categorizedSymbol" referencescale="-1">
         <categories>
-          <category symbol="0" render="true" value="footway" label="footway"/>
+          <category symbol="0" render="false" value="footway" label="footway"/>
           <category symbol="1" render="true" value="service" label="service"/>
-          <category symbol="2" render="true" value="steps" label="steps"/>
-          <category symbol="3" render="true" value="" label=""/>
+          <category symbol="2" render="false" value="steps" label="steps"/>
+          <category symbol="3" render="false" value="" label=""/>
         </categories>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="line" name="0">
@@ -22747,16 +22803,16 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer styleCategories="AllStyleCategories" refreshOnNotifyMessage="" maxScale="0" wkbType="MultiPolygon" simplifyMaxScale="1" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" legendPlaceholderImage="" simplifyLocal="1" simplifyDrawingHints="1" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="0" autoRefreshTime="0" type="vector" readOnly="0" autoRefreshEnabled="0" geometry="Polygon" refreshOnNotifyEnabled="0">
       <extent>
-        <xmin>414446.87646747898543254</xmin>
-        <ymin>6183445.64665589015930891</ymin>
-        <xmax>416706.93014147301437333</xmax>
-        <ymax>6188319.20459964033216238</ymax>
+        <xmin>414446.875</xmin>
+        <ymin>6183445.5</ymin>
+        <xmax>416706.9375</xmax>
+        <ymax>6188320</ymax>
       </extent>
       <wgs84extent>
-        <xmin>37.63409065520448848</xmin>
-        <ymin>55.78906232162398737</ymin>
-        <xmax>37.67165479281340623</xmax>
-        <ymax>55.83323511605610889</ymax>
+        <xmin>37.63409038132652995</xmin>
+        <ymin>55.78906100399771617</ymin>
+        <xmax>37.67165495496701766</xmax>
+        <ymax>55.83324226222256925</ymax>
       </wgs84extent>
       <id>pedestrian_availability_ranking_37N_d975f732_b273_4549_8df0_6bbcbda54f45</id>
       <datasource>../../../Downloads/pedestrian_availability_ranking_37N.gpkg|layername=pedestrian_availability_ranking_37N</datasource>
@@ -26760,6 +26816,163 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
+            <layer pass="0" enabled="1" locked="0" class="HashLine">
+              <Option type="Map">
+                <Option value="4" type="QString" name="average_angle_length"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="average_angle_map_unit_scale"/>
+                <Option value="MM" type="QString" name="average_angle_unit"/>
+                <Option value="0" type="QString" name="hash_angle"/>
+                <Option value="3" type="QString" name="hash_length"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="hash_length_map_unit_scale"/>
+                <Option value="MM" type="QString" name="hash_length_unit"/>
+                <Option value="3" type="QString" name="interval"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="interval_map_unit_scale"/>
+                <Option value="MM" type="QString" name="interval_unit"/>
+                <Option value="0" type="QString" name="offset"/>
+                <Option value="0" type="QString" name="offset_along_line"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_along_line_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_along_line_unit"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="vertex" type="QString" name="placement"/>
+                <Option value="0" type="QString" name="ring_filter"/>
+                <Option value="1" type="QString" name="rotate"/>
+              </Option>
+              <prop k="average_angle_length" v="4"/>
+              <prop k="average_angle_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="average_angle_unit" v="MM"/>
+              <prop k="hash_angle" v="0"/>
+              <prop k="hash_length" v="3"/>
+              <prop k="hash_length_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="hash_length_unit" v="MM"/>
+              <prop k="interval" v="3"/>
+              <prop k="interval_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="interval_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_along_line" v="0"/>
+              <prop k="offset_along_line_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_along_line_unit" v="MM"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="placement" v="vertex"/>
+              <prop k="ring_filter" v="0"/>
+              <prop k="rotate" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+              <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="line" name="@0@1">
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" type="QString" name="name"/>
+                    <Option name="properties"/>
+                    <Option value="collection" type="QString" name="type"/>
+                  </Option>
+                </data_defined_properties>
+                <layer pass="0" enabled="1" locked="0" class="MarkerLine">
+                  <Option type="Map">
+                    <Option value="4" type="QString" name="average_angle_length"/>
+                    <Option value="3x:0,0,0,0,0,0" type="QString" name="average_angle_map_unit_scale"/>
+                    <Option value="MM" type="QString" name="average_angle_unit"/>
+                    <Option value="3" type="QString" name="interval"/>
+                    <Option value="3x:0,0,0,0,0,0" type="QString" name="interval_map_unit_scale"/>
+                    <Option value="MM" type="QString" name="interval_unit"/>
+                    <Option value="0" type="QString" name="offset"/>
+                    <Option value="0" type="QString" name="offset_along_line"/>
+                    <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_along_line_map_unit_scale"/>
+                    <Option value="MM" type="QString" name="offset_along_line_unit"/>
+                    <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                    <Option value="MM" type="QString" name="offset_unit"/>
+                    <Option value="interval" type="QString" name="placement"/>
+                    <Option value="0" type="QString" name="ring_filter"/>
+                    <Option value="1" type="QString" name="rotate"/>
+                  </Option>
+                  <prop k="average_angle_length" v="4"/>
+                  <prop k="average_angle_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="average_angle_unit" v="MM"/>
+                  <prop k="interval" v="3"/>
+                  <prop k="interval_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="interval_unit" v="MM"/>
+                  <prop k="offset" v="0"/>
+                  <prop k="offset_along_line" v="0"/>
+                  <prop k="offset_along_line_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="offset_along_line_unit" v="MM"/>
+                  <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="placement" v="interval"/>
+                  <prop k="ring_filter" v="0"/>
+                  <prop k="rotate" v="1"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option value="" type="QString" name="name"/>
+                      <Option name="properties"/>
+                      <Option value="collection" type="QString" name="type"/>
+                    </Option>
+                  </data_defined_properties>
+                  <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="marker" name="@@0@1@0">
+                    <data_defined_properties>
+                      <Option type="Map">
+                        <Option value="" type="QString" name="name"/>
+                        <Option name="properties"/>
+                        <Option value="collection" type="QString" name="type"/>
+                      </Option>
+                    </data_defined_properties>
+                    <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
+                      <Option type="Map">
+                        <Option value="0" type="QString" name="angle"/>
+                        <Option value="square" type="QString" name="cap_style"/>
+                        <Option value="255,0,0,255" type="QString" name="color"/>
+                        <Option value="1" type="QString" name="horizontal_anchor_point"/>
+                        <Option value="bevel" type="QString" name="joinstyle"/>
+                        <Option value="circle" type="QString" name="name"/>
+                        <Option value="0,0" type="QString" name="offset"/>
+                        <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                        <Option value="MM" type="QString" name="offset_unit"/>
+                        <Option value="35,35,35,255" type="QString" name="outline_color"/>
+                        <Option value="solid" type="QString" name="outline_style"/>
+                        <Option value="0" type="QString" name="outline_width"/>
+                        <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+                        <Option value="MM" type="QString" name="outline_width_unit"/>
+                        <Option value="diameter" type="QString" name="scale_method"/>
+                        <Option value="2" type="QString" name="size"/>
+                        <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+                        <Option value="MM" type="QString" name="size_unit"/>
+                        <Option value="1" type="QString" name="vertical_anchor_point"/>
+                      </Option>
+                      <prop k="angle" v="0"/>
+                      <prop k="cap_style" v="square"/>
+                      <prop k="color" v="255,0,0,255"/>
+                      <prop k="horizontal_anchor_point" v="1"/>
+                      <prop k="joinstyle" v="bevel"/>
+                      <prop k="name" v="circle"/>
+                      <prop k="offset" v="0,0"/>
+                      <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                      <prop k="offset_unit" v="MM"/>
+                      <prop k="outline_color" v="35,35,35,255"/>
+                      <prop k="outline_style" v="solid"/>
+                      <prop k="outline_width" v="0"/>
+                      <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                      <prop k="outline_width_unit" v="MM"/>
+                      <prop k="scale_method" v="diameter"/>
+                      <prop k="size" v="2"/>
+                      <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                      <prop k="size_unit" v="MM"/>
+                      <prop k="vertical_anchor_point" v="1"/>
+                      <data_defined_properties>
+                        <Option type="Map">
+                          <Option value="" type="QString" name="name"/>
+                          <Option name="properties"/>
+                          <Option value="collection" type="QString" name="type"/>
+                        </Option>
+                      </data_defined_properties>
+                    </layer>
+                  </symbol>
+                </layer>
+              </symbol>
+            </layer>
           </symbol>
           <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="line" name="1">
             <data_defined_properties>
@@ -27857,15 +28070,15 @@ def my_form_open(dialog, layer, feature):
     <maplayer styleCategories="AllStyleCategories" refreshOnNotifyMessage="" maxScale="0" wkbType="LineString" simplifyMaxScale="1" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" legendPlaceholderImage="" simplifyLocal="1" simplifyDrawingHints="1" minScale="100000000" symbologyReferenceScale="-1" labelsEnabled="0" autoRefreshTime="0" type="vector" readOnly="0" autoRefreshEnabled="0" geometry="Line" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>37.51066529999999943</xmin>
-        <ymin>55.75355590000000205</ymin>
+        <ymin>55.77734759999999881</ymin>
         <xmax>38.14768049999999988</xmax>
-        <ymax>56.30324879999999865</ymax>
+        <ymax>56.15540099999999768</ymax>
       </extent>
       <wgs84extent>
         <xmin>37.51066529999999943</xmin>
-        <ymin>55.75355590000000205</ymin>
+        <ymin>55.77734759999999881</ymin>
         <xmax>38.14768049999999988</xmax>
-        <ymax>56.30324879999999865</ymax>
+        <ymax>56.15540099999999768</ymax>
       </wgs84extent>
       <id>yandex_map_1576130d_da5b_42ea_bfdb_21922ec6b703</id>
       <datasource>./yandex_map.geojson|geometrytype=LineString</datasource>
@@ -28259,12 +28472,11 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="0" type="field" name="id"/>
           <column width="-1" hidden="0" type="field" name="@id"/>
           <column width="-1" hidden="0" type="field" name="@relations"/>
-          <column width="-1" hidden="0" type="field" name="by_night"/>
           <column width="103" hidden="0" type="field" name="description"/>
-          <column width="176" hidden="0" type="field" name="from"/>
-          <column width="363" hidden="0" type="field" name="name"/>
+          <column width="177" hidden="0" type="field" name="from"/>
+          <column width="361" hidden="0" type="field" name="name"/>
           <column width="39" hidden="0" type="field" name="network"/>
-          <column width="-1" hidden="0" type="field" name="operator"/>
+          <column width="100" hidden="0" type="field" name="operator"/>
           <column width="-1" hidden="0" type="field" name="payment:cash"/>
           <column width="35" hidden="0" type="field" name="payment:credit_cards"/>
           <column width="35" hidden="0" type="field" name="payment:debit_cards"/>
@@ -28272,7 +28484,6 @@ def my_form_open(dialog, layer, feature):
           <column width="37" hidden="0" type="field" name="payment:troika"/>
           <column width="50" hidden="0" type="field" name="public_transport:version"/>
           <column width="35" hidden="0" type="field" name="ref"/>
-          <column width="35" hidden="0" type="field" name="roundtrip"/>
           <column width="35" hidden="0" type="field" name="route"/>
           <column width="127" hidden="0" type="field" name="to"/>
           <column width="35" hidden="0" type="field" name="type"/>
@@ -35222,7 +35433,7 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmax="416111.76641824480611831" ymin="6185765.41445274371653795" ymax="6188101.80056114215403795" xmin="413852.40402770566288382">
+    <DefaultViewExtent xmax="415921.54421977035235614" ymin="6186163.78918855916708708" ymax="6188658.74838655721396208" xmin="413045.25938015687279403">
       <spatialrefsys>
         <wkt>PROJCRS["WGS 84 / UTM zone 37N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 37N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",39,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Between 36°E and 42°E, northern hemisphere between equator and 84°N, onshore and offshore. Djibouti. Egypt. Eritrea. Ethiopia. Georgia. Iraq. Jordan. Kenya. Lebanon. Russian Federation. Saudi Arabia. Somalia. Sudan. Syria. Turkey. Ukraine."],BBOX[0,36,84,42]],ID["EPSG",32637]]</wkt>
         <proj4>+proj=utm +zone=37 +datum=WGS84 +units=m +no_defs</proj4>
