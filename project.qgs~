@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="Георгий" version="3.28.3-Firenze" projectname="" saveUserFull="Георгий Поляков" saveDateTime="2023-03-02T02:11:50">
+<qgis saveUser="Георгий" version="3.28.3-Firenze" projectname="" saveUserFull="Георгий Поляков" saveDateTime="2023-03-03T19:37:05">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -583,10 +583,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>414910.55368826125049964</xmin>
-      <ymin>6184115.23352702613919973</ymin>
-      <xmax>415251.64917418692493811</xmax>
-      <ymax>6184303.90293391700834036</ymax>
+      <xmin>414769.96952010318636894</xmin>
+      <ymin>6184226.73325512371957302</ymin>
+      <xmax>415025.7911345474421978</xmax>
+      <ymax>6184368.23531029187142849</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -6658,7 +6658,7 @@ def my_form_open(dialog, layer, feature):
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="&quot;people&quot;" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig sortExpression="&quot;organizations&quot;" actionWidgetStyle="dropDown" sortOrder="0">
         <columns>
           <column name="fid" hidden="0" type="field" width="36"/>
           <column name="address" hidden="0" type="field" width="202"/>
@@ -6673,7 +6673,8 @@ def my_form_open(dialog, layer, feature):
           <column name="type" hidden="0" type="field" width="100"/>
           <column name="people" hidden="0" type="field" width="187"/>
           <column name="workers" hidden="0" type="field" width="171"/>
-          <column name="organizations" hidden="0" type="field" width="395"/>
+          <column name="organizations" hidden="0" type="field" width="517"/>
+          <column name="vfg" hidden="0" type="field" width="400"/>
           <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
@@ -44661,7 +44662,7 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks/>
   <ProjectViewSettings rotation="0" UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent ymin="6184015.25563807971775532" xmin="414910.55368826125049964" ymax="6184403.88082286342978477" xmax="415251.64917418692493811">
+    <DefaultViewExtent ymin="6184226.73325512371957302" xmin="414733.90728986350586638" ymax="6184368.23531029187142849" xmax="415061.85336478712270036">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["WGS 84 / UTM zone 37N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 37N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",39,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Between 36°E and 42°E, northern hemisphere between equator and 84°N, onshore and offshore. Djibouti. Egypt. Eritrea. Ethiopia. Georgia. Iraq. Jordan. Kenya. Lebanon. Russian Federation. Saudi Arabia. Somalia. Sudan. Syria. Türkiye (Turkey). Ukraine."],BBOX[0,36,84,42]],ID["EPSG",32637]]</wkt>
         <proj4>+proj=utm +zone=37 +datum=WGS84 +units=m +no_defs</proj4>
