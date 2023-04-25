@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "метро",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32637" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "NAME": "ВДНХ", "TRAFFIC 1": 6504395, "TRAFFIC 2": 6104350, "daily": 137052 }, "geometry": { "type": "Point", "coordinates": [ 414844.97206016338896, 6186858.515412148088217 ] } },
+{ "type": "Feature", "properties": { "id": 2, "NAME": "Алексеевская", "TRAFFIC 1": 2625051, "TRAFFIC 2": 2710640, "daily": 57997 }, "geometry": { "type": "Point", "coordinates": [ 414682.840275256487075, 6185526.205311913043261 ] } }
+]
+}
